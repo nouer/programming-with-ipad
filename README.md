@@ -1,5 +1,7 @@
 # iPad Pro(2018) でプログラミングをするための環境
 
+<img src="https://raw.githubusercontent.com/nouer/programming-with-ipad/images/images/devenv.png" width="50%">
+
 ### Working Copy
 - CodeCommitのリポジトリ操作
 - GitHubのリポジトリ操作
