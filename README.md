@@ -3,23 +3,29 @@
 ### Working Copy
 - CodeCommitのリポジトリ操作
 - GitHubのリポジトリ操作
+> ※ SSHの鍵を暗号化したまま利用できない
 
 ### Textastic
 - Working Copyと連携してソースコード操作
+- SSHクライアントも内蔵、SSHの鍵も暗号化したまま利用できる
 
 ### Prompt 2
 - SSHアクセス（他のSSHクライアントは日本語が不便）
 - SSH多段アクセス （ssh agentを利用、ProxyCommandをサポートしているクライアントは見つからなかった）
+> ※ SSHトネリング機能は無い
 
-### ~~vSSH~~ APP STOREから削除された
+### ~~vSSH~~ ← APP STOREから削除された
 - ~~SSHトネリング~~
 
 ### Web SSH
 - SSHトネリング
+> ※ SSHクライアントとしては日本語が不便
+> ※ トネリング中、3分間非アクティブだと通知を出してくれてすぐアクティブにできる
 
 ### Remote Desktop
-- Windowsクライアントアクセス
-- イントラへはSSHトネリングを経由
+- Windowsクライアントアクセス、マイクロソフト謹製
+- Web SSHのSSHトネリングでbastionを経由して内部へはアクセス
+> ※ 3分に1度、SSHトネリングアクセスしているAPPをアクティブにしないといけない
 
 ### JavaScript Anywhere
 - JavaScriptの簡単な動作確認
@@ -27,5 +33,9 @@
 ### Node.js for iOS
 - Node.jsの環境、自分でビルドして入れる
 
-* 見送ったアプリ
-** Termius （月額で高杉）
+
+---
+
+
+# 見送ったアプリ
+### Termius （月額で高杉）
