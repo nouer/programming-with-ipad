@@ -14,33 +14,34 @@
 - エディタはできたらVimの操作がしたい。普段はプレーンなVimかVSCodeを利用。
 - CodeCommit, GitHubのリポジトリを触りたい。
 - ローカルでもGit操作したい。
-- VPN経由でも操作したい。
 
 ---
 
 ## インストールしたアプリ
 
-### Working Copy
+### <a href="https://itunes.apple.com/jp/app/working-copy/id896694807?mt=8">Working Copy</a>
 - CodeCommitのリポジトリ操作
 - GitHubのリポジトリ操作
 - エディタと連携しなくても、Working Copy自体のエディタも優れている
+- Markdownもプレビュー表示できる
 > ※ CodeCommitに利用するSSHの鍵を暗号化したまま利用できない
 
-### Textastic
+### <a href="https://itunes.apple.com/jp/app/textastic-code-editor-7/id1049254261?mt=8">Textatic</a>
 - Working Copyから連携してファイル編集
 - Textasticから開くファイルをブラウズして選択することもできる
 - Working Copyからファイルを開く（共有）からTextasticを選択して編集もできる
 - SSHクライアントも内蔵、SSHの鍵も暗号化したまま利用できる、SFTPも利用できる
 - iOSのブラウズの機能から、Dropbox、GDrive、WorkDocsを始め、様々なオンラインストレージを直接利用できる
 - ファイルエンコーディング、改行コードなども操作できる
+- Markdownもプレビュー表示できる
 
-### iVim
+### <a href="https://itunes.apple.com/jp/app/ivim/id1266544660?mt=8">iVim</a>
 - Working Copyから連携してファイル編集
 - Working Copyからファイルを開く（共有）からiVimを選択して編集する
 - 編集はWorking Copyに反映される
 > ※ 編集後、Working Copyに戻って内部的にはファイルは変更されているが、差分表示に反映されないことがある。
 
-### Prompt 2
+### <a href="https://itunes.apple.com/jp/app/prompt-2/id917437289?mt=8">Prompt 2</a>
 - SSHアクセス（他のSSHクライアントは日本語が不便）
 - SSH多段アクセス （ssh agentを利用、ProxyCommandをサポートしているクライアントは見つからなかった）
 > ※ SSHトネリング機能は無い
@@ -48,7 +49,7 @@
 ### ~~vSSH~~ ← APP STOREから削除された
 - ~~SSHトネリング~~
 
-### Web SSH
+### <a href="https://itunes.apple.com/jp/app/webssh-pro/id497714887?mt=8">WebSSH Pro</a>
 - SSHトネリング
 > ※ SSHクライアントとしては日本語が不便
 > ※ トネリング中、3分間非アクティブだと通知を出してくれてすぐアクティブにできる
@@ -78,11 +79,11 @@
 ### Phonto
 - 画像への文字入れツール、多彩なフォントがある
 
-### DrawExpress
+### <a href="https://itunes.apple.com/jp/app/drawexpress-diagram-lite/id687459234?mt=8">DrawExpress</a>
 - 図形描画ツール、シーケンス図や、ネットワーク図を作成する時に利用
 
-### torguard
-- VPNツール、IPを海外からのアクセスとしてテストする際に利用
+### <a href="https://itunes.apple.com/jp/app/dash-offline-api-docs/id1239167694?mt=8">Dash</a>
+- オフラインでAPIドキュメントを読むための便利ツール
 
 ---
 
