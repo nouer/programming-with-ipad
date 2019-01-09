@@ -14,6 +14,7 @@
 - エディタはできたらVimの操作がしたい。普段はプレーンなVimかVSCodeを利用。
 - CodeCommit, GitHubのリポジトリを触りたい。
 - ローカルでもGit操作したい。
+- SSHトネリングからのIP偽装、VPN接続からのIP偽装も使いたい
 
 ---
 
@@ -85,7 +86,8 @@
 ### <a href="https://itunes.apple.com/jp/app/dash-offline-api-docs/id1239167694?mt=8">Dash</a>
 - オフラインでAPIドキュメントを読むための便利ツール
 
----
+### <a href="https://itunes.apple.com/jp/app/openvpn-connect/id590379981?mt=8">OpenVPN Connect</a>
+- VPN接続のクライアント、AWS Client VPNや、プライベートVPN等に接続する時に利用
 
 
 # 見送ったアプリ
