@@ -26,6 +26,7 @@
 - エディタと連携しなくても、Working Copy自体のエディタも優れている
 - Markdownもプレビュー表示できる
 > ※ CodeCommitに利用するSSHの鍵を暗号化したまま利用できない
+> ※ リソースの更新周りの不具合が多い。ディレクトリを作成しても表示されなかったり、チェックアウトが反映されなかったり。動作が怪しいと思ったら、アプリを再起動するのが吉。
 
 ### <a href="https://itunes.apple.com/jp/app/textastic-code-editor-7/id1049254261?mt=8">Textatic</a>
 - Working Copyから連携してファイル編集
@@ -55,29 +56,29 @@
 > ※ SSHクライアントとしては日本語が不便
 > ※ トネリング中、3分間非アクティブだと通知を出してくれてすぐアクティブにできる
 
-### Remote Desktop
+### <a href="https://itunes.apple.com/jp/app/microsoft-%E3%83%AA%E3%83%A2%E3%83%BC%E3%83%88-%E3%83%87%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%97/id714464092?mt=8">Remote Desktop</a>
 - Windowsクライアントアクセス、マイクロソフト謹製
 - Web SSHのSSHトネリングで踏台を経由して内部へはアクセス
 > ※ 3分に1度、SSHトネリングアクセスしているAPPをアクティブにしないといけない
 
-### JavaScript Anywhere
+### <a href="https://itunes.apple.com/jp/app/javascript-anywhere-jsanywhere/id363452277?mt=8">JavaScript Anywhere</a>
 - JavaScriptの簡単な動作確認
 
-### Node.js for iOS
+### <a href="https://github.com/janeasystems/nodejs-mobile/releases">Node.js for iOS</a>
 - Node.jsの環境、自分でビルドして入れる
 
-### MetaMoji Note
+### <a href="https://itunes.apple.com/jp/app/metamoji-note/id557121061?mt=8">MetaMoji Note</a>
 - 普段使いのペンでのメモとり、及び、録音
 
-### Whink
+### <a href="https://itunes.apple.com/jp/app/whink/id1008546049?mt=8">Whink</a>
 - 普段使いのペンでのメモとり、及び、録音（現在はMetaMoji Noteを利用）
 > ※ ペンで書きなぐる速度についてこないことが多いので、MetaMoji Noteに変更
 > ※ 録音の頭出しは、このアプリが最適
 
-### Procreate
+### <a href="https://itunes.apple.com/jp/app/procreate/id425073498?mt=8">Procreate</a>
 - 絵画ツール、写真加工を含めて、ペンではやりきれない時に利用
 
-### Phonto
+### <a href="https://itunes.apple.com/jp/app/phonto-%E5%86%99%E7%9C%9F%E6%96%87%E5%AD%97%E5%85%A5%E3%82%8C/id438429273?mt=8">Phonto</a>
 - 画像への文字入れツール、多彩なフォントがある
 
 ### <a href="https://itunes.apple.com/jp/app/drawexpress-diagram-lite/id687459234?mt=8">DrawExpress</a>
