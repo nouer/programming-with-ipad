@@ -9,7 +9,7 @@
 ## 目標としたい環境
 - Windows, MacからSSH経由のオペレーションを代わりにiPadで。
 - 外出先からも。加えて、WindowsをRDPで操作したい。
-- 踏み台サーバを経由してのSSH、トネリング経由でのRDP。
+- 踏み台サーバを経由してのSSH、トネリング経由でのRDP。RD Gateway経由でもアクセス。
 - SSHへのアクセスは秘密鍵での認証。できたら秘密鍵もパスフレーズで暗号化しておきたい。
 - エディタはできたらVimの操作がしたい。普段はプレーンなVimかVSCodeを利用。
 - CodeCommit, GitHubのリポジトリを触りたい。
@@ -33,13 +33,16 @@
 - Textasticから開くファイルをブラウズして選択することもできる
 - Working Copyからファイルを開く（共有）からTextasticを選択して編集もできる
 - SSHクライアントも内蔵、SSHの鍵も暗号化したまま利用できる、SFTPも利用できる
-- iOSのブラウズの機能から、Dropbox、GDrive、WorkDocsを始め、様々なオンラインストレージを直接利用できる
+- (S)FPT, DropBox, Google Drive, WebDAV等を直接利用できる
+- ファイルアプリから、Dropbox、GDrive、WorkDocsを始め、様々なオンラインストレージを直接利用できる
 - ファイルエンコーディング、改行コードなども操作できる
 - Markdownもプレビュー表示できる
 
 ### <a href="https://itunes.apple.com/jp/app/ivim/id1266544660?mt=8">iVim</a>
 - Working Copyから連携してファイル編集
 - Working Copyからファイルを開く（共有）からiVimを選択して編集する
+- ファイルアプリからWorking Copyのファイルを選択してiVimで編集することもできる
+- ファイルアプリから、Dropbox、GDrive、WorkDocsを始め、様々なオンラインストレージを直接利用できる
 - 編集はWorking Copyに反映される
 > ※ 編集後、Working Copyに戻って内部的にはファイルは変更されているが、差分表示に反映されないことがある。
 
@@ -58,8 +61,9 @@
 
 ### <a href="https://itunes.apple.com/jp/app/microsoft-%E3%83%AA%E3%83%A2%E3%83%BC%E3%83%88-%E3%83%87%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%97/id714464092?mt=8">Remote Desktop</a>
 - Windowsクライアントアクセス、マイクロソフト謹製
-- Web SSHのSSHトネリングで踏台を経由して内部へはアクセス
-> ※ 3分に1度、SSHトネリングアクセスしているAPPをアクティブにしないといけない
+- Web SSHのSSHトネリングで踏台を経由してプライベートネットワークへアクセス
+- RD Gatewayが配置されている場合は、Gateway経由で直接利用
+> ※ SSHトネリングアクセスしている場合は、3分に1度、APPをアクティブにしないといけない(RD Gateway経由なら必要ない)
 
 ### <a href="https://itunes.apple.com/jp/app/javascript-anywhere-jsanywhere/id363452277?mt=8">JavaScript Anywhere</a>
 - JavaScriptの簡単な動作確認
